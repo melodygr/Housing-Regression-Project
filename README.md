@@ -22,7 +22,13 @@ Following the OSEMN (Obtain, Scrub, Explore, Model, Interpret) data science fram
 <!---![alt text](https://github.com/melodygr/microsoft_movie_analysis/blob/main/images/popularity.png "Genre Popularity Graph")--->
 
 ### Conclusions  
-The movie industry appears to still be growing every year, both in budgets and revenue.  While there are many players in the industry, a top few, including Walt Disney Studios, appear to be the ones to watch.  Movie-goers prefer movies in the Action, Adventure, and Fantasy genres, although these are not the most produced movies.  In that vein, the highest grossing moving ratings are PG, G and PG-13, yet these also are not the most produced movies.  Microsoft should consider producing movies based on what market research indicates that movie-goers actually want to watch.
+* Significant features in  luxury homes include number of bathrooms, waterfront property, location (zip codes, lat and long), public grade and whether the house has been renovated or not
+* Having a bigger house in terms of floors or bedrooms does not necessarily imply higher sale price
+* Square footage, while important, is not as significant as other factors in terms of pricing (such as location)
 
 ### Next Steps / Future Work  
-To truly be able to know if the industry is growing, we would want to account for inflation over the years.  Also, measuring profit instead of gross box office sales would ensure us that movies are not costing so much more to make now that it is overshadowing the increase in revenue. Further research into each studio is recommended as well as an analysis of the studios' performance over time.  Gross revenue and profitablity of popular genres and movie ratings should be examined with current data.  We should also consider analyzing if movie genre or rating popularity has been changing over time.
+1. Refine dataset (expand and cut certain zip codes)
+1. Subset model for different price ranges
+1. Apply log and scaling transformations to certain features to account for normality and differing magnitudes
+1. Investigate polynomial relationships and interactions between variables in greater detail
+
