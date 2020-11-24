@@ -26,6 +26,14 @@ Following the OSEMN (Obtain, Scrub, Explore, Model, Interpret) data science fram
 
 ![QQ Plot](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/baselineQQplot.png "QQ Plot")
 
+![Logged_Histograms](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/logged_histograms.png "Logged Histograms")
+
+![Transformed](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/transformed.png "Transformed")
+
+![Predictions](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/predictions.png "Predictions")
+
+![Predictions_Test](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/predictions_test.png "Predictions Test")
+
 ### Conclusions  
 * Significant features in  luxury homes include waterfront property, location (zip codes, longitude), and square foot above ground
 * Having more floors or bedrooms does not necessarily imply higher sale price
