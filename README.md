@@ -27,13 +27,12 @@ Following the OSEMN (Obtain, Scrub, Explore, Model, Interpret) data science fram
 ![QQ Plot](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/baselineQQplot.png "QQ Plot")
 
 ### Conclusions  
-* Significant features in  luxury homes include number of bathrooms, waterfront property, location (zip codes, lat and long), public grade and whether the house has been renovated or not
-* Having a bigger house in terms of floors or bedrooms does not necessarily imply higher sale price
-* Square footage, while important, is not as significant as other factors in terms of pricing (such as location)
+* Significant features in  luxury homes include waterfront property, location (zip codes, longitude), and square foot above ground
+* Having more floors or bedrooms does not necessarily imply higher sale price
+* Bottom Line: location and square footage are the most important features in determining sale price
 
 ### Next Steps / Future Work  
 1. Refine dataset (expand and cut certain zip codes)
 1. Subset model for different price ranges
-1. Apply log and scaling transformations to certain features to account for normality and differing magnitudes
 1. Investigate polynomial relationships and interactions between variables in greater detail
 
