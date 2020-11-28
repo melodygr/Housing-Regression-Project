@@ -20,27 +20,22 @@ This project uses the King County House Sales dataset, which can be found in kc_
 Following the OSEMN (Obtain, Scrub, Explore, Model, Interpret) data science framework, we began with an understanding of our business problem and the acquisition of data.  We then followed an iterative process of cleaning and exploring the data, checking for issues with modeling assumptions, creating and testing a model, interpreting the model, and reevaluating the data.
 
 In the initial data exploration, after subsetting the data to the top zipcodes, we checked the distributions of the independent variables for normal distributions.  Although it is not required for the data to be distributed normally, it can result in better models and predictions.
-
 ![Subset Distributions](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/subset_distributions.png "Subset Distributions")
 
 As part of the data cleaning/scrubbing phase, we checked for duplicates, and treated place holder values and missing values in ways to best retain as much data as possible while keeping the integrity of the data.  We also checked for multicollinearity among the independent variables and found several variables with high correlations, including: sqft living/sqft above, sqft living/grade, sqft living 15/sqft living, grade/sqft above, bathrooms/sqft living.
-
 ![Data Heatmap](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/heatmap.png "Heat Map")
 
 Once the data had been cleaned we further explored by looking at plots of the data for linear relationships, normal distributions, and skew caused by outliers.  Many of the variables appeared to be skewed by abnormally high outliers. We used IQR to remove price outliers from the dataset before our train test split.
-
 ![Price Distribution](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/outlier_comparison.png "Price Distribution")
 
-After creating an initial baseline model, several of the continuous variables were log transformed and scaled to make them more normally distributed and comparable to each other.  
-
+After creating an initial baseline model, several of the continuous variables were log transformed and scaled to make them more normally distributed and comparable to each other.
 ![Logged_Histograms](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/logged_histograms.png "Logged Histograms")
 
-And we also scaled the variables make them easier to compare to each other as seen in this overlay graph.   
-
+And we also scaled the variables make them easier to compare to each other as seen in this overlay graph.
 <img src= 
 "images/transformed.png" 
          alt="Transformed Image" 
-         align="center"
+         style="float:center"
          width="500" height="500">   
 
 We then iterated through the modeling process, interpreting our results after each model, and making changes and adjustments based on statistical significance of the variables.  For our final model, you can see in this graph how our predictions match up with the actual data on which we trained the model as well as on predicting the test data value for Sale Price.
