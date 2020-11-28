@@ -8,7 +8,7 @@
 
 Flatiron Data Science Project - Phase 2  
 Prepared and Presented by:  **_Sarah Zoeller_** and **_Melody Peterson_**  
-<!---[Presentation PDF](https://github.com/melodygr/microsoft_movie_analysis/blob/main/presentation.pdf "Presentation PDF")  --->
+[Presentation PDF](https://github.com/swzoeller/Housing-Regression-Project/blob/main/presentation.pdf "Presentation PDF")
 
 ### Business Problem    
 King County Real Estate is a luxury real estate company serving sellers and buyers in the high income earning areas of King County, Washington. The company wants to understand which features translate to higher housing prices in these areas, as well as develop a model to predict price based on housing features.
@@ -37,7 +37,7 @@ We then iterated through the modeling process, interpreting our results after ea
 
 ![Predictions_Test](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/predictions_test.png "Predictions Test")
 
-By holding all variable except one constant at their mean, we can visualize the relationship between sale price and any given variable as predicted by our model.
+By holding all variables except one constant at their mean, we can visualize the relationship between sale price and any given variable as predicted by our model.
 
 ![Single Var Plots](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/single_var_plots.png "Single Var Plots")
 
