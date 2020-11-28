@@ -23,7 +23,7 @@ In the initial data exploration, after subsetting the data to the top zipcodes, 
 
 ![Subset Distributions](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/subset_distributions.png "Subset Distributions")
 
-As part of the data cleaning/scrubbing phase, we checked for duplicates, and treated place holder values and missing values in ways to best retain as much data as possible while keeping the integrity of the values.  We also checked for multicollinearity among the independent variables and found several variable with high correlations, including: sqft living/sqft above, sqft living/grade, sqft living 15/sqft living, grade/sqft above, bathrooms/sqft living.
+As part of the data cleaning/scrubbing phase, we checked for duplicates, and treated place holder values and missing values in ways to best retain as much data as possible while keeping the integrity of the data.  We also checked for multicollinearity among the independent variables and found several variables with high correlations, including: sqft living/sqft above, sqft living/grade, sqft living 15/sqft living, grade/sqft above, bathrooms/sqft living.
 
 ![Data Heatmap](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/heatmap.png "Heat Map")
 
@@ -35,9 +35,13 @@ After creating an initial baseline model, several of the continuous variables we
 
 ![Logged_Histograms](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/logged_histograms.png "Logged Histograms")
 
-And we also scaled the variables make them easier to compare to each other as seen in this overlay graph.
+And we also scaled the variables make them easier to compare to each other as seen in this overlay graph.   
 
-![Transformed](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/transformed.png "Transformed")
+<img src= 
+"images/transformed.png" 
+         alt="Transformed Image" 
+         align="center"
+         width="500" height="500">   
 
 We then iterated through the modeling process, interpreting our results after each model, and making changes and adjustments based on statistical significance of the variables.  For our final model, you can see in this graph how our predictions match up with the actual data on which we trained the model as well as on predicting the test data value for Sale Price.
 
