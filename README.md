@@ -46,15 +46,13 @@ Now the results of our model will be changes in price relative to these values.
 
 We will now use IQR to remove price outliers from the dataset before our train test split, and check the new distribution
 
-![Price Distribution](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/price_dist.png "Price Distribution")
-
-![Price Distribution](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/price_dist_no_outliers.png "Price Distribution")
+![Price Distribution](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/outlier_comparison.png "Price Distribution")
 
 Several of the continuous variables were log transformed and scaled to make them more normally distributed and comparable to each other.  
 
 ![Logged_Histograms](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/logged_histograms.png "Logged Histograms")
 
-Sacling the variables make them easier to compare to each other as seen in this overlay graph.
+Scaling the variables make them easier to compare to each other as seen in this overlay graph.
 
 ![Transformed](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/transformed.png "Transformed")
 
