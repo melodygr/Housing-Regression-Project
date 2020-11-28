@@ -29,14 +29,7 @@ Once the data had been cleaned we further explored by looking at plots of the da
 ![Price Distribution](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/outlier_comparison.png "Price Distribution")
 
 After creating an initial baseline model, several of the continuous variables were log transformed and scaled to make them more normally distributed and comparable to each other.
-![Logged_Histograms](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/logged_histograms.png "Logged Histograms")
-
-And we also scaled the variables make them easier to compare to each other as seen in this overlay graph.
-<img src= 
-"images/transformed.png" 
-         alt="Transformed Image" 
-         style="float:center"
-         width="500" height="500">   
+![Logged_Histograms](https://github.com/swzoeller/Housing-Regression-Project/blob/main/images/logged_histograms.png "Logged Histograms") 
 
 We then iterated through the modeling process, interpreting our results after each model, and making changes and adjustments based on statistical significance of the variables.  For our final model, you can see in this graph how our predictions match up with the actual data on which we trained the model as well as on predicting the test data value for Sale Price.
 
